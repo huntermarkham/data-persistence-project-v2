@@ -83,7 +83,7 @@ public class MainManager : MonoBehaviour
     public void DisplayTopScore()
     {
         highScoreManager.GetTopScore();
-        topScoreText.text = "Best score: " + highScoreManager.topName + " : " + highScoreManager.topScore;
+        topScoreText.text = "Best Score: " + highScoreManager.topName + " : " + highScoreManager.topScore;
     }
 
     private void ShowScores()
